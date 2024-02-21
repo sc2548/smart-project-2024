@@ -1,0 +1,139 @@
+/*Base*/
+
+/* Base */
+* { 
+    box-sizing: border-box; 
+    padding: 0; 
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-transform: capitalize; 
+    text-decoration: none; 
+}
+
+header { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    /* background: white;  */
+    padding: 4px 7%; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .nav-bar ul { 
+    list-style: none;
+}
+
+header .nav-bar ul li { 
+    position: relative; 
+    float: left; 
+}
+
+header .nav-bar ul li a {
+    font-size: 16px;
+    padding: 20px;
+    color: green;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add a transition effect for color */
+    border-bottom: 2px solid transparent; /* Add a transparent border initially */
+}
+
+header .nav-bar ul li a:hover {
+    color: orange; /* Change text color on hover */
+    text-decoration: underline solid orange; 
+    background: white;
+    border-radius: 5%;
+}
+
+
+
+
+/* Home Page */
+
+.home-container, .top-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden; /* Add this to contain the button within the container */
+}
+
+.home-container .learn-more-button {
+    position: absolute;
+    top: 70%; /* Adjust the top value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    background-color: #FFA500; /* Orange color */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.home-container .learn-more-button:hover {
+    background-color: #FF8C00; /* Darker shade of orange on hover */
+}
+
+.home-container .home-img-main {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 50%;
+    max-width: 100%;
+}
+
+.home-img-main, .top-img-main {
+    opacity: 0.9;
+    filter: brightness(60%);
+    width: 100%;
+}
+
+.home-title, .top-title {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300%;
+    color: white;
+}
+
+.home-subtitle {
+    position: absolute;
+    top: 60%;
+    /*70% originally, for responsive*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 180%;
+    /*120% originally, for responsive*/
+    color: white;
+}
+
+
+
+/* Home Page - Mission Statement */
+
+.mission-title {
+    line-height: 150%;
+    font-size: 300%;
+    margin-bottom: 4%;
+    color:rgb(0, 81, 0);
+}
+
+.mission-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: black;
+    text-align: center; /* Center the text */
+}
+
+.mission-paragraph {
+    margin-bottom: 10px; /* Adjust as needed */
+}
