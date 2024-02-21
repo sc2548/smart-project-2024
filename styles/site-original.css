@@ -627,26 +627,30 @@ header .nav-bar ul li:hover > ul {
     max-width:320px;
     border: 2px solid #006400; 
     border-radius: 10px;
-    margin: 0 20px; /* Add margin to create spacing between images */
 
   }
 
-  .founder-wrapper {
-    margin-bottom: -300px; /* Add margin between images and text */
-  }
-  
   .text-box { 
     color: black;
     padding: 50px;
-    display: block; 
-    position: relative;
-    margin-top: 0; /* Remove top margin */
-    margin-bottom: 0; /* Remove bottom margin */
+    display:block; 
+    position:relative;
+    bottom:450px;
+  }
+
+  .text-box p { 
+    font-size: 16px; 
+  }
+
+/* Impact Pagee: Numbers Section */
+.impact-nums {
     text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Choose a background color */
   }
   
-  footer {
-    margin-top: -50px; /* decrease space between founders text and footer */
+  .impact-nums h2 {
+    color: #006400; /* Choose a text color */
   }
 
 /* Impact Page: Carousel */ 
