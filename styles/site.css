@@ -749,6 +749,42 @@ header .nav-bar ul li:hover > ul {
     display: block;
   }
 
+
+/* Impact Page: Success Stories */ 
+
+.testimonials-container {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.user-info {
+    font-style: italic;
+}
+
 /* Footer */
 
 .footer-container {
